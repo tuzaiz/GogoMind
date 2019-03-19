@@ -12,6 +12,8 @@
 		472358492240F5F100536FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472358472240F5F100536FDA /* Main.storyboard */; };
 		4723584B2240F5F300536FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4723584A2240F5F300536FDA /* Assets.xcassets */; };
 		4723584E2240F5F300536FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4723584C2240F5F300536FDA /* LaunchScreen.storyboard */; };
+		472358562241010700536FDA /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472358552241010700536FDA /* NodeView.swift */; };
+		47235858224101E800536FDA /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47235857224101E800536FDA /* Root.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4723584A2240F5F300536FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4723584D2240F5F300536FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4723584F2240F5F300536FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472358552241010700536FDA /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		47235857224101E800536FDA /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				472358432240F5F100536FDA /* AppDelegate.swift */,
 				472358452240F5F100536FDA /* ViewController.swift */,
+				472358552241010700536FDA /* NodeView.swift */,
+				47235857224101E800536FDA /* Root.swift */,
 				472358472240F5F100536FDA /* Main.storyboard */,
 				4723584A2240F5F300536FDA /* Assets.xcassets */,
 				4723584C2240F5F300536FDA /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				472358462240F5F100536FDA /* ViewController.swift in Sources */,
+				47235858224101E800536FDA /* Root.swift in Sources */,
 				472358442240F5F100536FDA /* AppDelegate.swift in Sources */,
+				472358562241010700536FDA /* NodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
